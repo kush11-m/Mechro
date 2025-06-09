@@ -8,7 +8,7 @@
 
 ## 🚀 Live Demo
 
-mechro.vercel.app
+[mechro.vercel.app](https://mechro.vercel.app/)
 
 ---
 
