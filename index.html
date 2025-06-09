@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <img class="image-gradient" src="assets/gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+    
+    <div class="container">
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">Mechro</h1>
+
+            <nav>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#">Products</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#">Solutions</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="#">About</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="#">Contact</a>
+            </nav>
+    
+            <button data-aos="fade-down" data-aos-duration="1500" class="btn-signin">Sign In</button>
+        </header>
+    
+        <main>
+            <div class="content">
+                <div data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="1500" class="tag-box">
+                    <div class="tag">Introducing&nbsp;<strong>Armix One</strong></div>
+                </div>
+        
+                <h1 data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="2000">Precision. Power. Possibility.</h1>
+        
+                <p data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="2500" class="description">
+                    Meet the future of automation. Armix One is a compact, modular robotic arm designed for industrial performance at a desktop scale.
+                </p>
+        
+                <div data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="3000" class="buttons">
+                    <a href="#" class="btn-primary">Explore Product</a>
+                    <a href="#" class="btn-secondary">Watch Demo</a>
+                </div>
+            </div>
+        </main>
+        
+        <spline-viewer data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0" data-aos-duration="3000" class="robot" url="https://prod.spline.design/Q3r01fo6UMjVqwO9/scene.splinecode"></spline-viewer>
+    </div>  
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.2/build/spline-viewer.js"></script>    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+</body>
+</html>
